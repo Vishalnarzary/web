@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 14px;
+	font-family: arial,sans-serif;
+}
+h1#max{
+	width: 136px;
+	height: 46px;
+	background-image: url('google.jpg.png');
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+#container{
+width:460;
+margin:0 auto;
+text-align: center;
+}
+input[type="search"]
+{width:454;
+padding: 3px;
+margin: 15px 0 10px;
+font-family: helvetica;}
+
+p{
+	margin-top: 10px;
+}
+input[type="search"]:hover,input[type="submit"]:hover{
+	border: solid 4px #eee;
+	font-size:16px;
+}
+input[type="submit"] 
+{
+	margin: 0px 5px 1px;
+}
+input[type="submit"]:hover 
+{
+	cursor: pointer;
+}
+nav ul li {
+	display: inline;
+
+
+}
+a:link{
+color: #555
+}
+nav{text-align: right;
+margin:4px;}
+nav ul li a{
+	padding: 5px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	
+	text-decoration: underline;
+}
+	footer nav ul li{
+display: inline;
+}
+
+footer nav#phoot{
+	position: fixed;
+	bottom:0;
+	background-color: #eee;
+	width:1080px;
+	text-align: left;
+}
+nav ul#toppings li#app{
+	background-image: url('images.png');
+	background-size: 100%;
+	padding:19px ;
+	font-size: 0px;
+
+
+}
+
+
